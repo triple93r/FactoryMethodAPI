@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FactoryMethodAPI2.props" />
+</Project>
