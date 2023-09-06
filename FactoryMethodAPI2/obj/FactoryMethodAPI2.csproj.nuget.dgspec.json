@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tripl\\OneDrive\\Desktop\\FactoryMethodAPI2\\FactoryMethodAPI2\\FactoryMethodAPI2.csproj": {}
+    "D:\\RashmiR\\Github\\FactoryMethodAPI\\FactoryMethodAPI2\\FactoryMethodAPI2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tripl\\OneDrive\\Desktop\\FactoryMethodAPI2\\FactoryMethodAPI2\\FactoryMethodAPI2.csproj": {
+    "D:\\RashmiR\\Github\\FactoryMethodAPI\\FactoryMethodAPI2\\FactoryMethodAPI2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tripl\\OneDrive\\Desktop\\FactoryMethodAPI2\\FactoryMethodAPI2\\FactoryMethodAPI2.csproj",
+        "projectUniqueName": "D:\\RashmiR\\Github\\FactoryMethodAPI\\FactoryMethodAPI2\\FactoryMethodAPI2.csproj",
         "projectName": "FactoryMethodAPI2",
-        "projectPath": "C:\\Users\\tripl\\OneDrive\\Desktop\\FactoryMethodAPI2\\FactoryMethodAPI2\\FactoryMethodAPI2.csproj",
-        "packagesPath": "C:\\Users\\tripl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tripl\\OneDrive\\Desktop\\FactoryMethodAPI2\\FactoryMethodAPI2\\obj\\",
+        "projectPath": "D:\\RashmiR\\Github\\FactoryMethodAPI\\FactoryMethodAPI2\\FactoryMethodAPI2.csproj",
+        "packagesPath": "C:\\Users\\OASYS-43\\.nuget\\packages\\",
+        "outputPath": "D:\\RashmiR\\Github\\FactoryMethodAPI\\FactoryMethodAPI2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tripl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\OASYS-43\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -92,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
