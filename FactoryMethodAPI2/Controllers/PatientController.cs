@@ -1,4 +1,5 @@
-﻿using FactoryMethodAPI2.Data;
+﻿using FactoryMethodAPI2.Concrete;
+using FactoryMethodAPI2.Data;
 using FactoryMethodAPI2.Factories;
 using FactoryMethodAPI2.Interfaces;
 using FactoryMethodAPI2.Models;
@@ -19,11 +20,24 @@ namespace FactoryMethodAPI2.Controllers
         }
 
         [HttpGet]
-        public JsonResult GetPatient()
+        public JsonResult GetPatient(string FirstName, string LastName, int age, string Address, int ptype)
         {
-            ICreateObj obj = new PatientFactory1.CasualPatientFactory();
+            ICreateObj obj;
+            switch (ptype)
+            {
+                    case 1:
+                    obj = new PatientFactory1.CasualPatientFactory();
+                    break;
+                    case 2:
+                    obj = new PatientFactory1.InPatientFactory();
+                    break;
+                    default :
+                    obj = new PatientFactory1.OutPatientFactory();
+                    break;
+                    throw new ArgumentException();
+            }
             Ipatient objipatient = obj.GetObj();
-            return Json(objipatient.FirstName("Anil") + objipatient.LastName(" kim") + objipatient.Age(26) + objipatient.Address("location"));
+            return Json(objipatient.FirstName(FirstName) + " " + objipatient.LastName(LastName) + ", Age: " + objipatient.Age(age) + ", Address: "+ objipatient.Address(Address));
         }
     }
 }
