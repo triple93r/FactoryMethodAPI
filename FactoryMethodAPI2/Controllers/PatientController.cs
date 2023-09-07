@@ -19,10 +19,11 @@ namespace FactoryMethodAPI2.Controllers
             _context = db;
         }
 
-        [HttpGet]
-        public JsonResult GetPatient(string FirstName, string LastName, int age, string Address, int ptype)
+        [HttpPost]
+        public JsonResult SetPatient(string FirstName, string LastName, int age, string Address, int ptype)
         {
             ICreateObj obj;
+            Ipatient objipatient;
             switch (ptype)
             {
                     case 1:
@@ -36,8 +37,27 @@ namespace FactoryMethodAPI2.Controllers
                     break;
                     throw new ArgumentException();
             }
-            Ipatient objipatient = obj.GetObj();
-            return Json(objipatient.FirstName(FirstName) + " " + objipatient.LastName(LastName) + ", Age: " + objipatient.Age(age) + ", Address: "+ objipatient.Address(Address));
+            objipatient = obj.GetObj();
+            Patient ptn = new Patient();
+            ptn.FirstName = objipatient.FirstName(FirstName);
+            ptn.LastName = objipatient.LastName(LastName);
+            ptn.Age = objipatient.Age(age);
+            ptn.Adrress = objipatient.Address(Address);
+            ptn.PatientType = objipatient.Typ();
+            _context.Patients.Add(ptn);
+            _context.SaveChanges();
+
+            return Json(ptn);
+            //return Json(objipatient.FirstName(FirstName) + " " + objipatient.LastName(LastName) + ", Age: " + objipatient.Age(age) + ", Address: "+ objipatient.Address(Address) + ", " + objipatient.Typ());
+        }
+
+        [HttpGet]
+        public JsonResult getPatient(int Id)
+        {
+            ICreateObj obj;
+            Patient? ptn = new Patient();
+            ptn = _context.Patients.Where(x => x.Id == Id).SingleOrDefault();
+            return Json(ptn);
         }
     }
 }

@@ -6,5 +6,6 @@
         string LastName(string lname);
         string Age(int ag);
         string Address(string ad);
+        string Typ();
     }
 }

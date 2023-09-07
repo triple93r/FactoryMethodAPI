@@ -18,12 +18,17 @@ namespace FactoryMethodAPI2.Concrete
 
         public string FirstName(string fname)
         {
-            return "Out Patient : " + fname;
+            return fname;
         }
 
         public string LastName(string lname)
         {
             return lname;
+        }
+
+        public string Typ()
+        {
+            return "Out Patient";
         }
     }
 }
