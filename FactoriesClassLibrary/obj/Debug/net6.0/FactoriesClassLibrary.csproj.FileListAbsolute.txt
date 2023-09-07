@@ -1,0 +1,17 @@
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\FactoriesClassLibrary.csproj.AssemblyReference.cache
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\FactoriesClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\FactoriesClassLibrary.AssemblyInfoInputs.cache
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\FactoriesClassLibrary.AssemblyInfo.cs
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\FactoriesClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\bin\Debug\net6.0\FactoriesClassLibrary.deps.json
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\bin\Debug\net6.0\FactoriesClassLibrary.dll
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\bin\Debug\net6.0\FactoriesClassLibrary.pdb
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\bin\Debug\net6.0\BLClassLibrary.dll
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\bin\Debug\net6.0\DLClassLibrary.dll
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\bin\Debug\net6.0\BLClassLibrary.pdb
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\bin\Debug\net6.0\DLClassLibrary.pdb
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\FactoriesClassLibrary.csproj.CopyComplete
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\FactoriesClassLibrary.dll
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\refint\FactoriesClassLibrary.dll
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\FactoriesClassLibrary.pdb
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\FactoriesClassLibrary\obj\Debug\net6.0\ref\FactoriesClassLibrary.dll

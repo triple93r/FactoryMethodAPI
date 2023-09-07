@@ -1,0 +1,12 @@
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\bin\Debug\net6.0\DLClassLibrary.deps.json
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\bin\Debug\net6.0\DLClassLibrary.dll
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\bin\Debug\net6.0\DLClassLibrary.pdb
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\obj\Debug\net6.0\DLClassLibrary.csproj.AssemblyReference.cache
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\obj\Debug\net6.0\DLClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\obj\Debug\net6.0\DLClassLibrary.AssemblyInfoInputs.cache
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\obj\Debug\net6.0\DLClassLibrary.AssemblyInfo.cs
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\obj\Debug\net6.0\DLClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\obj\Debug\net6.0\DLClassLibrary.dll
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\obj\Debug\net6.0\refint\DLClassLibrary.dll
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\obj\Debug\net6.0\DLClassLibrary.pdb
+C:\Users\tripl\OneDrive\Desktop\FactoryMethodAPI2\DLClassLibrary\obj\Debug\net6.0\ref\DLClassLibrary.dll
